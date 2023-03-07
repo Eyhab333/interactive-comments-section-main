@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Interactive comments section</title>
+
+    <style>
+      body {
+        font-family: "Rubik", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="comment">
+        <div class="flex">
+          <div class="avatar">
+            <img src="./images/avatars/image-amyrobson.png" alt="amyrobson" />
+          </div>
+          <h1>amyrobson</h1>
+          <p class="ago">1 month ago</p>
+        </div>
+        <p class="main-p">
+          Impressive! Though it seems the drag feature could be improved. But
+          overall it looks incredible. You’ve nailed the design and the
+          responsiveness at various breakpoints works really well.
+        </p>
+        <div class="flex2">
+          <div class="number-flex">
+            <div class="plus">
+              <img src="./images/icon-plus.svg" alt="plus" />
+            </div>
+            <div class="number">12</div>
+            <div class="minus">
+              <img src="./images/icon-minus.svg" alt="minus" />
+            </div>
+          </div>
+          <div class="reply-flex">
+            <div class="icon">
+              <img src="./images/icon-reply.svg" alt="reply" />
+            </div>
+            <p class="reply">Reply</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="comment">
+        <div class="flex">
+          <div class="avatar">
+            <img src="./images/avatars/image-maxblagun.png" alt="maxblagun" />
+          </div>
+          <h2>maxblagun</h2>
+          <p class="ago">2 weeks ago</p>
+        </div>
+        <p class="main-p">
+          Woah, your project looks awesome! How long have you been coding for?
+          I’m still new, but think I want to dive into React as well soon.
+          Perhaps you can give me an insight on where I can learn React? Thanks!
+        </p>
+        <div class="flex2">
+          <div class="number-flex">
+            <div class="plus">
+              <img src="./images/icon-plus.svg" alt="plus" />
+            </div>
+            <div class="number">5</div>
+            <div class="minus">
+              <img src="./images/icon-minus.svg" alt="minus" />
+            </div>
+          </div>
+          <div class="reply-flex">
+            <div class="icon">
+              <img src="./images/icon-reply.svg" alt="reply" />
+            </div>
+            <p class="reply">Reply</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="need-border-left">
+        <div class="comment comment2">
+          <div class="flex">
+            <div class="avatar">
+              <img
+                src="./images/avatars/image-ramsesmiron.png"
+                alt="ramsesmiron"
+              />
+            </div>
+            <h2>ramsesmiron</h2>
+            <p class="ago">1 week ago</p>
+          </div>
+          <p class="main-p">
+            <span>@maxblagun</span> If you’re still new, I’d recommend focusing on the
+            fundamentals of HTML, CSS, and JS before considering React. It’s
+            very tempting to jump ahead but lay a solid foundation first.
+          </p>
+          <div class="flex2">
+            <div class="number-flex">
+              <div class="plus">
+                <img src="./images/icon-plus.svg" alt="plus" />
+              </div>
+              <div class="number">4</div>
+              <div class="minus">
+                <img src="./images/icon-minus.svg" alt="minus" />
+              </div>
+            </div>
+            <div class="reply-flex">
+              <div class="icon">
+                <img src="./images/icon-reply.svg" alt="reply" />
+              </div>
+              <p class="reply">Reply</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="comment comment2">
+          <div class="flex">
+            <div class="avatar">
+              <img src="./images/avatars/image-juliusomo.png" alt="juliusomo" />
+            </div>
+            <h2>juliusomo</h2>
+            <div class="you">
+              you
+            </div>
+            <p class="ago">2 days ago</p>
+          </div>
+          <p class="main-p">
+            Woah, your project looks awesome! How long have you been coding for?
+            I’m still new, but think I want to dive into React as well soon.
+            Perhaps you can give me an insight on where I can learn React?
+            Thanks!
+          </p>
+          <div class="flex2">
+            <div class="number-flex">
+              <div class="plus">
+                <img src="./images/icon-plus.svg" alt="plus" />
+              </div>
+              <div class="number">2</div>
+              <div class="minus">
+                <img src="./images/icon-minus.svg" alt="minus" />
+              </div>
+            </div>
+            <div class="reply-flex">
+              <div class="icon-delete">
+                <img src="./images/icon-delete.svg" alt="icon-delete" />
+              </div>
+              <p class="reply">Delete</p>
+            </div>
+            <div class="reply-flex">
+              <div class="icon-edit">
+                <img src="./images/icon-edit.svg" alt="icon-edit" />
+              </div>
+              <p class="reply">Edit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="comment">
+        <textarea name="text" id="" cols="25" rows="3" placeholder="Add a comment…"></textarea>
+        <div class="last-flex">
+          <div class="avatar">
+            <img src="./images/avatars/image-juliusomo.png" alt="juliusomo">
+          </div>
+          <button>SEND</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Pull dynamic content from the data.json file -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
