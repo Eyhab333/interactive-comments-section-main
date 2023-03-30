@@ -236,6 +236,168 @@ ul {
   }
 }
 /*############ for-tablet-portrait-up ##############*/
+@media (min-width: 600px) {
+  body {
+    padding: 32px 16px;
+    padding-left: 355px;
+    padding-right: 355px;
+    background: #f5f6fa;
+  }
+  main {
+    background: #f5f6fa;
+    padding-bottom: 32px;
+  }
+  main .comment + .comment {
+    margin-top: 16px;
+  }
+  main .comment {
+    padding: 16px;
+    background: #ffffff;
+    border-radius: 8px;
+  }
+  main .comment .flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+  }
+  main .comment .flex .avatar {
+    height: 32px;
+    width: 32px;
+    margin-right: 16px;
+    border-radius: 50%;
+  }
+  main .comment .flex .avatar img {
+    border-radius: 50%;
+  }
+  main .comment .flex h1,
+  main .comment .flex h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334253;
+    margin-right: 16px;
+  }
+  main .comment .flex .ago {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #67727e;
+  }
+  main .comment .main-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #67727e;
+    margin-bottom: 16px;
+  }
+  main .comment .flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .comment .flex2 .number-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #f5f6fa;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+  }
+  main .comment .flex2 .number-flex .plus {
+    height: 10px;
+    width: 10.0744876862px;
+  }
+  main .comment .flex2 .number-flex .number {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #5357b6;
+  }
+  main .comment .flex2 .number-flex .minus {
+    height: 2.5px;
+    width: 10px;
+  }
+  main .comment .flex2 .reply-flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  main .comment .flex2 .reply-flex .icon {
+    height: 12.2500362396px;
+    width: 14px;
+    margin-right: 8px;
+  }
+  main .comment .flex2 .reply-flex .reply {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5357b6;
+  }
+  main .need-border-left {
+    border-left: 2px solid #e9ebf0;
+    margin-top: 16px;
+    padding-left: 43px;
+    margin-bottom: 20px;
+  }
+  main .need-border-left span {
+    font-weight: 500px;
+    color: #5357b6;
+  }
+  main .need-border-left .you {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 19px;
+    width: 36px;
+    background: #5357b6;
+    border-radius: 2px;
+    margin-right: 3px;
+  }
+  main .need-border-left .icon-delete,
+  main .need-border-left .icon-edit {
+    height: 10px;
+    width: 9px;
+    margin-right: 8px;
+  }
+  main textarea {
+    margin-bottom: 16px;
+    padding-top: 12px;
+    padding-left: 24px;
+    outline: none;
+    background: #ffffff;
+    border: 1px solid #e9ebf0;
+    border-radius: 8px;
+  }
+  main .last-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .last-flex .avatar {
+    height: 32px;
+    width: 32px;
+  }
+  main .last-flex button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 104px;
+    background: #5357b6;
+    border-radius: 8px;
+  }
+}
 /*############ for-tablet-landscape-up #############*/
 /*############ for-desktop-up ###########*/
 /*############ for-big-desktop-up ##########*//*# sourceMappingURL=style.css.map */
